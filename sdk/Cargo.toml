@@ -1,0 +1,29 @@
+[package]
+name = "ai-sdk"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+ai-core = { workspace = true }
+shared-types = { workspace = true }
+embeddings = { workspace = true }
+copilot = { workspace = true }
+investigation = { workspace = true }
+correlation = { workspace = true }
+knowledge-graph = { workspace = true }
+rag = { workspace = true }
+detections = { workspace = true }
+playbooks = { workspace = true }
+policies = { workspace = true }
+intelligence = { workspace = true }
+analytics = { workspace = true }
+reporting = { workspace = true }
+risk = { workspace = true }
+uuid = { workspace = true }
+chrono = { workspace = true }
+parking_lot = { workspace = true }
+serde_json = { workspace = true }
+
+[dev-dependencies]
+tokio = { workspace = true }

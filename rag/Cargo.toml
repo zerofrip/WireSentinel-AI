@@ -1,0 +1,16 @@
+[package]
+name = "rag"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+ai-core = { workspace = true }
+embeddings = { workspace = true }
+shared-types = { workspace = true }
+uuid = { workspace = true }
+chrono = { workspace = true }
+parking_lot = { workspace = true }
+
+[dev-dependencies]
+tokio = { workspace = true }
